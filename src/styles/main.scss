@@ -1,0 +1,27 @@
+@import "_variables.scss";
+
+$bg-blue-dark: #1239E0;
+
+body{
+    background: $bg-blue-light;
+    color: white;
+}
+
+nav{
+    background: $bg-blue-dark;
+    padding: 20px;
+}
+
+a{
+    color:$link-white;
+    text-decoration: none;
+}
+
+footer{
+    background: $bg-blue-medium;
+    color:$link-white;
+}
+
+img{
+    width: 60%;
+}
